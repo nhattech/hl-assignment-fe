@@ -32,7 +32,10 @@
   /* height: fit-content;  */
   
 }
-
+.AppContent .AppBanner .ant-space-item {
+  display: flex;
+  align-items: center;
+}
 
 .App-link {
   color: #61dafb;

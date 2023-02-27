@@ -3,7 +3,9 @@ import { Logo, User } from "../components";
 
 function AppHeader() {
   return (
-    <Space style={{display: 'flex' , justifyContent: 'space-between'}}>
+    <Space style={{display: 'flex' , justifyContent: 'space-between', 
+    padding: '0% 10%' 
+    }}>
       <Logo />
       <User />
     </Space>
