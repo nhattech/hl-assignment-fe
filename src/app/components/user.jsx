@@ -4,8 +4,8 @@ const { Title, Paragraph, Text, Link } = Typography;
 function User() {
   return (
     <Space direction="horizontal" align="center">
-      <Typography>
-        <Text type="secondary" level={5}>Design by</Text><br/>
+      <Typography align='end'>
+        <Text type="secondary" style={{fontSize: 10}}>Handicrafted by</Text><br/>
         <Text>Ba Nhat</Text>
       </Typography>
 
